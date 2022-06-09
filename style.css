@@ -39,10 +39,11 @@ input::placeholder {
   color: #b5b5b5;
 }
 
-.fas .trash {
+.trash {
   color: #7e0000;
   position: relative;
   float: right;
+  margin: 10px;
 }
 
 .dark-mode {
@@ -60,7 +61,7 @@ input::placeholder {
   color: white;
 }
 
-.dark-mode .fas {
+.dark-mode .trash {
   color: #b80505;
   position: relative;
   float: right;
@@ -124,19 +125,22 @@ input::placeholder {
 }
 
 @media only screen and (max-width: 800px) {
+  .todos li {
+    font-size: 1.4rem;
+  }
   h1 {
-    font-size: 6rem !important;
+    font-size: 5.5rem !important;
   }
   form {
     margin: auto;
     max-width: 100%;
-    min-width: 320px;
+    min-width: 300px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   .input {
     margin: auto;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     float: left;
     width: 80%;
     max-width: 320px;

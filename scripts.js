@@ -37,7 +37,8 @@ function addTodo(todo) {
       todoEl.classList.toggle("completed");
     }
     //dodaje kod html w li ikona śmietnika
-    todoEl.innerHTML = todoTxt + '<i id="trash" class="fas fa-trash-alt"></i>';
+    todoEl.innerHTML =
+      todoTxt + '<i id="trash" class="fas fa-trash-alt trash"></i>';
     //nasłuchuje kliknięcia w element
     todoEl.addEventListener("click", (e) => {
       todoEl.classList.toggle("completed");
