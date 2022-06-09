@@ -37,7 +37,7 @@ input::placeholder {
   }
 }
 
-.fas {
+.fas .trash {
   color: rgb(126, 0, 0);
   position: relative;
   float: right;
@@ -155,29 +155,19 @@ input::placeholder {
   }
 
   .btn-submit {
-    overflow: visible;
-    position: relative;
     float: left;
-    border: 0;
-    padding: 0;
-    height: 40px;
-    max-width: 65px;
     color: #fff;
-    text-transform: uppercase;
     background: #198cff;
     width: 20%;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    margin: 0;
     height: 60px;
   }
 
   .btn-arrow {
-    color: rgb(127, 61, 192);
     font-size: 2rem;
+    margin: auto;
     text-align: center;
-    height: 60px;
-    width: 64;
-    line-height: 60px;
+    border: none;
   }
 }
 
@@ -188,5 +178,8 @@ input::placeholder {
     display: block;
     width: 100%;
     padding: 1rem 2rem;
+  }
+  button {
+    display: none;
   }
 }
