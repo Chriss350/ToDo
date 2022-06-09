@@ -133,3 +133,20 @@ button {
   font-size: 10rem;
   opacity: 0.4;
 }
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+  form {
+    margin: auto;
+    max-width: 100%;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .input {
+    width: 100%;
+    margin: auto;
+    font-size: 1rem;
+  }
+}
